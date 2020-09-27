@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+  color: rgba(252, 3, 140, 1);
+}
+
+.center-container {
+  width: 608px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  border-style: hidden;
+}
+
+td {
+  cursor: pointer;
+  border: 4px solid rgba(252, 3, 140, 1);
+  padding: o;
+  width: 200px;
+  height: 200px;
+  background-size: 160px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+canvas {
+  position: absolute;
+  z-index: 10;
+  pointer-events: none; // should not react to pointer events
+}
