@@ -20,7 +20,7 @@ function placeXOrO(squareNumber) {
       disableClick();
       setTimeout(function () {computersTurn();}, 2000);
     }
-    return true;
+    return true;//this is needed for computersturn() to work properly
   }
 
   function computersTurn() {
